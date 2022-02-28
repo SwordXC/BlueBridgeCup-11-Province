@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HAL_06_LCD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL_06_LCD">
+				<Option output="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/HAL_06_LCD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Source"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Inc"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/RTE"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/RTE/_HAL_06_LCD"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Src"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL_06_LCD"/>
+					<CompileFile command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL_06_LCD/fast">
+				<Option output="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/HAL_06_LCD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Source"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Inc"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/RTE"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/RTE/_HAL_06_LCD"/>
+					<Add directory="E:/BlueBrigeCup/HAL_06_LCD/Src"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="e:\mingw17\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL_06_LCD/fast"/>
+					<CompileFile command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw17/MinGW/bin/mingw32-make.exe -f &quot;E:/BlueBrigeCup/HAL_06_LCD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g471xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g473xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g483xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g484xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32gbk1cb.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/system_stm32g4xx.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32_assert_template.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_comp.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_conf_template.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cryp.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cryp_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fmac.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_hrtim.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2s.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_irda.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_irda_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_iwdg.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_lptim.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_nand.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_nor.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_qspi.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rng.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rtc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rtc_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_sai.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_sai_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_smartcard.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_smartcard_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_smbus.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_sram.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_usart.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_usart_ex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_wwdg.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_comp.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cordic.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dac.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_fmac.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_fmc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_hrtim.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_i2c.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_iwdg.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_lptim.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_lpuart.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_opamp.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rng.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rtc.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_spi.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_tim.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_ucpd.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usart.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usb.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_wwdg.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cordic.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2s.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_irda.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_lptim.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nand.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nor.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_qspi.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sram.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart_ex.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_wwdg.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_comp.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_cordic.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crs.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dac.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dma.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_exti.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmac.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_gpio.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_hrtim.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_i2c.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lptim.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lpuart.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_opamp.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_pwr.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rcc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rng.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rtc.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_spi.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_tim.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_ucpd.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usart.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_utils.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Inc/fonts.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Inc/lcd.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Inc/main.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Inc/stm32g4xx_hal_conf.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Inc/stm32g4xx_it.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/DebugConfig/HAL_06_LCD_STM32G431RBTx.dbgconf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.axf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.build_log.htm">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.hex">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.htm">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.lnp">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.map">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD.sct">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/HAL_06_LCD_HAL_06_LCD.dep">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/delay.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/delay.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/delay.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/key.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/key.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/key.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/lcd.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/lcd.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/lcd.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/led.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/led.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/led.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/main.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/main.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/main.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/menu.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/menu.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/menu.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/pwm.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/pwm.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/pwm.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/startup_stm32g431xx.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/startup_stm32g431xx.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_cortex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_cortex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_cortex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_dma.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_dma.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_dma.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_dma_ex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_dma_ex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_dma_ex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_exti.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_exti.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_exti.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash_ex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash_ex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash_ex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash_ramfunc.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash_ramfunc.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_flash_ramfunc.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_gpio.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_gpio.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_gpio.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_msp.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_msp.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_msp.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_pwr.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_pwr.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_pwr.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_pwr_ex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_pwr_ex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_pwr_ex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_rcc.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_rcc.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_rcc.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_rcc_ex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_rcc_ex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_rcc_ex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_tim.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_tim.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_tim.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_tim_ex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_tim_ex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_tim_ex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_uart.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_uart.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_uart.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_uart_ex.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_uart_ex.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_hal_uart_ex.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_it.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_it.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_it.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_ll_pwr.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_ll_pwr.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/stm32g4xx_ll_pwr.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/system_stm32g4xx.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/system_stm32g4xx.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/system_stm32g4xx.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/uart.crf">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/uart.d">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/HAL_06_LCD/uart.o">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/MDK-ARM/RTE/_HAL_06_LCD/RTE_Components.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/ADC.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/ADC.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/LED.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/LED.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/key.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/key.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/lcd.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/main.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/menu.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/menu.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/pwm.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/pwm.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/stm32g4xx_hal_msp.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/stm32g4xx_it.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/system_stm32g4xx.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/uart.c">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/Src/uart.h">
+			<Option target="HAL_06_LCD"/>
+		</Unit>
+		<Unit filename="E:/BlueBrigeCup/HAL_06_LCD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
